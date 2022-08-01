@@ -1,0 +1,57 @@
+body {
+    color: rgb(224, 221, 207);
+    color: #4d4d4d;
+}
+
+.main {
+    max-width: 500px;
+    width: 85%;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 600px) {
+    .main {
+        width: 70%;
+    }
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1rem;
+
+}
+
+.lg-text-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1rem;
+
+}
+
+.btn-wrapper {
+    margin-bottom: 2rem;
+}
+
+.btn-menu {
+    flex-basis: 32%;
+}
+
+.active {
+    color: green;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+ul li {
+    list-style: none;
+}
